@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Laptop", "category": "Electronics", "price": 1200 },
+    { "id": 2, "name": "Smartphone", "category": "Electronics", "price": 800 },
+    { "id": 3, "name": "Tablet", "category": "Electronics", "price": 500 },
+    { "id": 4, "name": "Smartwatch", "category": "Electronics", "price": 250 },
+    { "id": 5, "name": "Desk", "category": "Furniture", "price": 300 },
+    { "id": 6, "name": "Chair", "category": "Furniture", "price": 150 },
+    { "id": 7, "name": "Couch", "category": "Furniture", "price": 700 },
+    { "id": 8, "name": "Bed Frame", "category": "Furniture", "price": 600 },
+    { "id": 9, "name": "Refrigerator", "category": "Appliances", "price": 1000 },
+    { "id": 10, "name": "Microwave", "category": "Appliances", "price": 400 },
+    { "id": 11, "name": "Washing Machine", "category": "Appliances", "price": 900 },
+    { "id": 12, "name": "Air Conditioner", "category": "Appliances", "price": 1200 },
+    { "id": 13, "name": "T-shirt", "category": "Clothing", "price": 30 },
+    { "id": 14, "name": "Jeans", "category": "Clothing", "price": 60 },
+    { "id": 15, "name": "Sneakers", "category": "Clothing", "price": 120 },
+    { "id": 16, "name": "Jacket", "category": "Clothing", "price": 200 },
+    { "id": 17, "name": "Notebook", "category": "Stationery", "price": 10 },
+    { "id": 18, "name": "Pen", "category": "Stationery", "price": 5 },
+    { "id": 19, "name": "Backpack", "category": "Accessories", "price": 80 },
+    { "id": 20, "name": "Sunglasses", "category": "Accessories", "price": 150 }
+  ]
