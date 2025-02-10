@@ -1,59 +1,73 @@
-# AngularProductCatalog
+Overview
+This is a Product Catalog Application built using Angular 19+ Standalone API. It allows users to view, filter, and edit products fetched from a mock API.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+Features
+ Product List with Filtering (Search, Category, Price Range)
+ Lazy Loading for Optimized Performance
+ Reactive Forms for Live Filtering
+ Edit Product in a Modal
+ Mock API Data using mock-products.json
 
-## Development server
+ Setup Instructions
+1️ Prerequisites
+Make sure you have the following installed:
 
-To start a local development server, run:
+Node.js (>=18.x)
+Angular CLI (>=19.x)
+Install it globally if not installed:
 
-```bash
+npm install -g @angular/cli
+2️ Clone the Repository
+
+git clone https://github.com/Tekdokto/angular-product-catalog.git
+cd angular-product-catalog
+3️ Install Dependencies
+
+npm install
+4️ Run the Application
+
 ng serve
-```
+The app will be available at:
+http://localhost:4200/
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Folder Structure
+angular-product-catalog/
+src/
+app/
+components/
+product-list/
+product-list.component.ts
+product-list.component.html
+product-list.component.scss
+product-edit-modal/
+product-edit-modal.component.ts
+product-edit-modal.component.html
+product-edit-modal.component.scss
+services/
+product.service.ts
+app.config.ts
+app.routes.ts
+assets/
+mock-products.json
+main.ts
+angular.json
+package.json
+README.md
 
-## Code scaffolding
+Assumptions
+The application does not require a backend and fetches product data from a mock JSON file (mock-products.json).
+The user can filter products dynamically using search, category, and price.
+The Edit Product feature modifies data locally but does not persist changes (since there's no real database).
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Areas for Improvement
+Persist Data with a Backend API (e.g., Firebase, Node.js, Express)
+Improve UI with Material Design or TailwindCSS
+Add Authentication for product editing
+Add Pagination for better performance with large datasets
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Best Practices Followed
+ KISS (Keep It Simple, Stupid) → Simple, modular, and maintainable code
+ Lazy Loading → Only loads components when needed
+ Reactive Forms → Optimized filtering and form management
+ Reusable Components → product-list & product-edit-modal for scalability
+ Best Angular 19+ Practices → Standalone API, proper dependency injection

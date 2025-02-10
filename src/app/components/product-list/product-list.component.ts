@@ -8,7 +8,7 @@ import { ProductEditModalComponent } from '../product-edit-modal/product-edit-mo
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, ProductEditModalComponent], // ✅ FIX: Import Modal Component
+  imports: [CommonModule, ReactiveFormsModule, ProductEditModalComponent],
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.scss']
 })

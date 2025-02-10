@@ -67,7 +67,7 @@ $modal-overlay: rgba(0, 0, 0, 0.5);
           color: white;
 
           &:hover {
-            background: color.adjust($primary-color, $lightness: -10%); // ✅ Fix: Replaces darken()
+            background: color.adjust($primary-color, $lightness: -10%);
           }
         }
 
@@ -76,7 +76,7 @@ $modal-overlay: rgba(0, 0, 0, 0.5);
           color: white;
 
           &:hover {
-            background: color.adjust(#dc3545, $lightness: -10%); // ✅ Fix: Replaces darken()
+            background: color.adjust(#dc3545, $lightness: -10%);
           }
         }
       }
